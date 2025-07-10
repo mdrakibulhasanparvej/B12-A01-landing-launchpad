@@ -12,18 +12,49 @@ body {
     
 }
 /* Header Section With Nav and Banner start */
-.header_main{
-
+.header_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
-.banner_hero{
-
+.banner_hero img{
+    height: 698px;
+    width: 100%;
 }
-.nav_sec{
-
+.nav_sec {
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 55rem;
 }
-.logo{
-
+.logo {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #4e47ff;
+    padding: 1rem;
 }
-.banner_top_text{
-    
+.btn {
+    background-color: #5c6fff;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+      transform: scale(1.05);
+      background-color: #4a5fe2;
+    }
+.banner_top_text {
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4.5rem;
+    color: #333;
 }
