@@ -157,7 +157,7 @@ body {
 .star-bar {
     max-width: 104px;
     height: 17px;
-    background-image: url('/images/icon-star.png');
+    background-image: url('./images/icon-star.png');
     background-repeat: repeat-x;
     background-size: contain;
 }
