@@ -154,7 +154,13 @@ body {
     position: relative;
 }
 
-
+.star-bar {
+    max-width: 104px;
+    height: 17px;
+    background-image: url('/images/icon-star.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+}
 .testimonials {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -170,21 +176,11 @@ body {
     justify-content: center;
     position: relative;
 }
-
-.testimonial::after {
-    content: '★★★★★';
-    position: absolute;
-    top: 0.75rem;
-    right: 11.85rem;
-    font-size: 1.25rem;
-    color: #fbbf24;
-}
-
 .testimonial-title {
     font-weight: bold;
     color: #000000;
     margin-bottom: 0.4rem;
-    margin-top: 1.56rem;
+    margin-top: 1.3rem;
 }
 .testimonial-text {
     font-size: 0.85rem;
